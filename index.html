@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Certificado Ofimática</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="toolbar no-print">
+    <a href="index.html" class="btn btn-ghost">← Lista de alumnos</a>
+    <span id="toolbar-title"></span>
+    <button id="btn-print" class="btn" type="button" hidden>Imprimir / PDF</button>
+  </header>
+
+  <main id="app">
+    <p class="mensaje">Cargando…</p>
+  </main>
+
+  <!-- Plantilla del certificado -->
+  <template id="tpl-certificado">
+    <div class="page-wrap">
+      <section class="page page-front">
+        <svg class="deco" viewBox="0 0 1123 794" preserveAspectRatio="none" aria-hidden="true">
+          <defs>
+            <linearGradient id="gRed" x1="0" y1="0" x2="1" y2="0">
+              <stop offset="0" stop-color="#0a0000"/>
+              <stop offset=".45" stop-color="#5a0505"/>
+              <stop offset="1" stop-color="#f01010"/>
+            </linearGradient>
+            <linearGradient id="gRedCorner" x1="0" y1="1" x2="1" y2="0">
+              <stop offset="0" stop-color="#0a0000"/>
+              <stop offset=".6" stop-color="#7a0a0a"/>
+              <stop offset="1" stop-color="#d81818"/>
+            </linearGradient>
+            <linearGradient id="gGold" x1="0" y1="0" x2="1" y2="0">
+              <stop offset="0" stop-color="#a77b2c"/>
+              <stop offset=".5" stop-color="#e9c46a"/>
+              <stop offset="1" stop-color="#f3d27a"/>
+            </linearGradient>
+          </defs>
+          <!-- esquina superior izquierda -->
+          <path d="M0 0 H245 Q90 22 0 100 Z" fill="url(#gGold)"/>
+          <path d="M0 0 H215 Q75 22 0 85 Z" fill="url(#gRedCorner)"/>
+          <!-- ola inferior -->
+          <path d="M0 610 C130 700 330 765 610 762 C820 760 990 725 1123 695 V794 H0 Z" fill="url(#gGold)"/>
+          <path d="M0 628 C130 715 330 778 610 775 C820 773 990 740 1123 712 V794 H0 Z" fill="#000"/>
+          <path d="M0 665 C140 745 340 790 610 788 C820 786 990 755 1123 728 V794 H0 Z" fill="url(#gRed)"/>
+        </svg>
+
+        <div class="front-content">
+          <h2 class="inst" data-f="institucion"></h2>
+          <img class="logo-minedu" src="assets/img/minedu.png" alt="Perú - Ministerio de Educación">
+          <img class="logo-escudo" src="assets/img/escudo.png" alt="Escudo IESTPC">
+          <h1 class="titulo">CERTIFICADO</h1>
+          <img class="logo-office" src="assets/img/office.png" alt="Microsoft Office">
+          <p class="otorgado">otorgado a:</p>
+          <p class="alumno" data-f="nombres"></p>
+          <div class="texto">
+            <p>Por haber APROBADO Y CONCLUIDO satisfactoriamente el CURSO DE ESPECIALIZACIÓN EN <strong data-f="curso"></strong>.</p>
+            <p>Habiéndose desarrollado todas las herramientas <span data-f="herramientas"></span>, con duración de <span data-f="horas"></span> HORAS LECTIVAS realizados el <span data-f="fechaInicio"></span> al <span data-f="fechaFin"></span> en la modalidad <span data-f="modalidad"></span>.</p>
+            <p>Por lo tanto, se expide el siguiente certificado para que se le reconozca como tal.</p>
+          </div>
+          <p class="fecha" data-f="fechaEmision"></p>
+          <div class="firmas" data-f="firmas"></div>
+          <p class="codigo">CÓDIGO N° <span data-f="codigo"></span></p>
+        </div>
+      </section>
+    </div>
+
+    <div class="page-wrap">
+      <section class="page page-back">
+        <svg class="deco" viewBox="0 0 1123 794" preserveAspectRatio="none" aria-hidden="true">
+          <path d="M0 0 H245 Q90 22 0 100 Z" fill="url(#gGold)"/>
+          <path d="M0 0 H215 Q75 22 0 85 Z" fill="url(#gRedCorner)"/>
+          <path d="M1123 794 H880 Q1030 772 1123 690 Z" fill="url(#gGold)"/>
+          <path d="M1123 794 H915 Q1050 775 1123 712 Z" fill="url(#gRedCorner)"/>
+        </svg>
+
+        <div class="back-content">
+          <div class="modulos" data-f="modulos"></div>
+
+          <div class="back-bottom">
+            <table class="notas">
+              <thead>
+                <tr><th>CURSO</th><th>NOTA</th></tr>
+              </thead>
+              <tbody>
+                <tr><td data-f="curso"></td><td data-f="nota"></td></tr>
+                <tr><td>PROMEDIO FINAL</td><td data-f="promedio"></td></tr>
+                <tr><td>TOTAL, DE HORAS PEDAGÓGICAS</td><td data-f="horas"></td></tr>
+              </tbody>
+            </table>
+
+            <div class="certifica">
+              <h3>PROGRAMA DE ESTUDIOS DE<br>“COMPUTACIÓN E INFORMÁTICA y APSTI”<br>CERTIFICA</h3>
+              <p>Que los datos consignados en el presente documento están inscritos en nuestros registros y libros de nuestra Institución.</p>
+              <p class="expediente"><strong>N° Expediente:</strong> <em data-f="expediente"></em>.</p>
+              <img class="sello" src="assets/img/sello.png" alt="Sello Computación e Informática">
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </template>
+
+  <script src="js/app.js"></script>
+</body>
+</html>

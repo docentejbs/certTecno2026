@@ -1,0 +1,40 @@
+{
+  "curso": {
+    "institucion": "INSTITUTO DE EDUCACION SUPERIOR TECNOLOGICO PUBLICO “CUTERVO”",
+    "nombre": "OFIMÁTICA PROFESIONAL",
+    "herramientas": "MICROSOFT WORD, MICROSOFT POWER POINT, MICROSOFT EXCEL, MACROS EN LOS NIVELES BÁSICO - INTERMEDIO - AVANZADO",
+    "horas": 200,
+    "fechaInicio": "28/09/2023",
+    "fechaFin": "29/01/2024",
+    "modalidad": "presencial y online",
+    "lugarEmision": "CUTERVO",
+    "fechaEmision": "2026-11-16",
+    "firmantes": [
+      { "nombre": "Msc. WILLY FREDERICK AVELLANEDA VÁSQUEZ.", "cargo": "Coordinador de Área Académica de Computación e Informática y APSTI" },
+      { "nombre": "LIC.PAHOLO DANIEL GONZALES MUÑOZ", "cargo": "Jefe de Unidad de Formación Continua" },
+      { "nombre": "Mg. JOSÉ SATURNINO ROBLES MACHUCA.", "cargo": "Director General del I.E.S.T.P “Cutervo”" }
+    ],
+    "modulos": [
+      {
+        "titulo": "Herramienta: Microsoft Word 2019.",
+        "contenidos": ["Entorno de Word.", "Crear y guardar documentos.", "Edición de texto.", "Formato de fuente y párrafo.", "Configuración de página.", "Tablas.", "Imágenes y formas.", "Encabezados y pies de página.", "Numeración.", "Estilos.", "Práctica guiada.", "Tabla de contenido.", "Columnas.", "Hipervínculos.", "Revisión.", "Exportación a PDF."]
+      },
+      {
+        "titulo": "Herramienta: Microsoft Excel 2019.",
+        "contenidos": ["Entorno de Excel.", "Filas, columnas y celdas.", "Ingreso de datos.", "Formato de celdas.", "Fórmulas básicas.", "SUMA.", "PROMEDIO.", "MAX.", "MIN.", "CONTAR.", "Porcentajes.", "Referencias relativas y absolutas.", "Función SI.", "CONTAR.SI.", "SUMAR.SI.", "Ordenar.", "Filtros."]
+      },
+      {
+        "titulo": "Herramienta: Microsoft Power Point 2019.",
+        "contenidos": ["Entorno de PowerPoint.", "Crear diapositivas.", "Diseños.", "Temas.", "Texto.", "Imágenes.", "Formas.", "SmartArt.", "Tablas.", "Gráficos.", "Audio.", "Video.", "Transiciones.", "Animaciones.", "Patrón de diapositivas.", "Hipervínculos.", "Botones de acción."]
+      }
+    ]
+  },
+  "alumnos": [
+    { "id": 1, "nombres": "ADRIANO OLIVERA CASTRO", "codigo": "ECP-0004893", "expediente": "1134", "nota": 17, "promedio": 17 },
+    { "id": 2, "nombres": "MARÍA FERNANDA RUIZ DÍAZ", "codigo": "ECP-0004894", "expediente": "1135", "nota": 18, "promedio": 18 },
+    { "id": 3, "nombres": "JOSÉ LUIS TARRILLO VÁSQUEZ", "codigo": "ECP-0004895", "expediente": "1136", "nota": 16, "promedio": 16 },
+    { "id": 4, "nombres": "ROSA ELENA HUAMÁN CIEZA", "codigo": "ECP-0004896", "expediente": "1137", "nota": 19, "promedio": 19 },
+    { "id": 5, "nombres": "CARLOS ALBERTO DELGADO SÁNCHEZ", "codigo": "ECP-0004897", "expediente": "1138", "nota": 15, "promedio": 15 },
+    { "id": 6, "nombres": "LUCÍA MILAGROS BURGA MEGO", "codigo": "ECP-0004898", "expediente": "1139", "nota": 18, "promedio": 18 }
+  ]
+}
