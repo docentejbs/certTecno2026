@@ -159,7 +159,7 @@
     const codigo = est.trim().toUpperCase();
     const alumno = data.alumnos.find((a) => String(a.codigo).toUpperCase() === codigo);
     if (!alumno) {
-      mensaje(`No existe un alumno con código <strong>${est.replace(/[<>&"]/g, "")}</strong>. <a href="index.html">Ver lista</a>`);
+      mensaje(`No existe un alumno con código <strong>${est.replace(/[<>&"]/g, "")}</strong>.`);
       return;
     }
     renderCertificado(data.curso, alumno);
