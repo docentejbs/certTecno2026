@@ -42,7 +42,6 @@ body {
   text-decoration: none;
 }
 .btn:hover { filter: brightness(1.1); }
-.btn-ghost { background: transparent; border: 1px solid #555; }
 
 #app {
   display: flex;
