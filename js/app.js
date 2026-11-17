@@ -66,7 +66,7 @@
       tr.appendChild(el("td", null, a.codigo));
       const td = el("td");
       const link = el("a", null, "Ver certificado →");
-      link.href = "?Est=" + encodeURIComponent(a.codigo);
+      link.href = "?Est=" + encodeURIComponent(a.codigo) + "&hash=00ZXY005";
       td.appendChild(link);
       tr.appendChild(td);
       tbody.appendChild(tr);
