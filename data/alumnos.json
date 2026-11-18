@@ -103,518 +103,518 @@
   "alumnos": [
     {
       "id": 1,
-      "nombres": "LUDWING DANIEL ALTAMIRANO GIRON",
+      "nombres": "ALTAMIRANO GIRON, LUDWING DANIEL",
       "codigo": "ECP-001",
       "nota": 16,
       "promedio": 16
     },
     {
       "id": 2,
-      "nombres": "DEYLER ARTEAGA GARCIA",
+      "nombres": "ARTEAGA GARCIA, DEYLER",
       "codigo": "ECP-002",
       "nota": 17,
       "promedio": 17
     },
     {
       "id": 3,
-      "nombres": "RONALDINHO ARTEAGA LLANOS",
+      "nombres": "ARTEAGA LLANOS, RONALDINHO",
       "codigo": "ECP-003",
       "nota": 15,
       "promedio": 15
     },
     {
       "id": 4,
-      "nombres": "JUAN BARAHONA SÁNCHEZ",
+      "nombres": "BARAHONA SÁNCHEZ, JUAN",
       "codigo": "ECP-004",
       "nota": 18,
       "promedio": 18
     },
     {
       "id": 5,
-      "nombres": "NATALY BARON SILVA",
+      "nombres": "BARON SILVA, NATALY",
       "codigo": "ECP-005",
       "nota": 18,
       "promedio": 18
     },
     {
       "id": 6,
-      "nombres": "EYDIL DAYNER BECERRA TORRES",
+      "nombres": "BECERRA TORRES, EYDIL DAYNER",
       "codigo": "ECP-006",
       "nota": 16,
       "promedio": 16
     },
     {
       "id": 7,
-      "nombres": "JHON JAMIL CAMPOS GONZALES",
+      "nombres": "CAMPOS GONZALES, JHON JAMIL",
       "codigo": "ECP-007",
       "nota": 16,
       "promedio": 16
     },
     {
       "id": 8,
-      "nombres": "CHERLY MARITA CAMPOS PEDRAZA",
+      "nombres": "CAMPOS PEDRAZA, CHERLY MARITA",
       "codigo": "ECP-008",
       "nota": 16,
       "promedio": 16
     },
     {
       "id": 9,
-      "nombres": "MÓNICA CARRANZA DÁVILA",
+      "nombres": "CARRANZA DÁVILA, MÓNICA",
       "codigo": "ECP-009",
       "nota": 15,
       "promedio": 15
     },
     {
       "id": 10,
-      "nombres": "FANY JUDITH CARRANZA OLIVERA",
+      "nombres": "CARRANZA OLIVERA, FANY JUDITH",
       "codigo": "ECP-010",
       "nota": 17,
       "promedio": 17
     },
     {
       "id": 11,
-      "nombres": "LUZ SARITA CASTREJÓN NAUCA",
+      "nombres": "CASTREJÓN NAUCA, LUZ SARITA",
       "codigo": "ECP-011",
       "nota": 16,
       "promedio": 16
     },
     {
       "id": 12,
-      "nombres": "CRISTIAN ROBERT CASTRO PÉREZ",
+      "nombres": "CASTRO PÉREZ, CRISTIAN ROBERT",
       "codigo": "ECP-012",
       "nota": 16,
       "promedio": 16
     },
     {
       "id": 13,
-      "nombres": "EDGARD JESÚS CORONADO LEÓN",
+      "nombres": "CORONADO LEÓN, EDGARD JESÚS",
       "codigo": "ECP-013",
       "nota": 17,
       "promedio": 17
     },
     {
       "id": 14,
-      "nombres": "MAGALY CUBAS CORONADO",
+      "nombres": "CUBAS CORONADO, MAGALY",
       "codigo": "ECP-014",
       "nota": 16,
       "promedio": 16
     },
     {
       "id": 15,
-      "nombres": "MARIA NAIDA CUBAS INGA",
+      "nombres": "CUBAS INGA, MARIA NAIDA",
       "codigo": "ECP-015",
       "nota": 17,
       "promedio": 17
     },
     {
       "id": 16,
-      "nombres": "EDWEN DÍAZ BERRIOS",
+      "nombres": "DÍAZ BERRIOS, EDWEN",
       "codigo": "ECP-016",
       "nota": 18,
       "promedio": 18
     },
     {
       "id": 17,
-      "nombres": "ELISABETH DÍAZ BURGA",
+      "nombres": "DÍAZ BURGA, ELISABETH",
       "codigo": "ECP-017",
       "nota": 15,
       "promedio": 15
     },
     {
       "id": 18,
-      "nombres": "MAYLI DÍAZ GONZALES",
+      "nombres": "DÍAZ GONZALES, MAYLI",
       "codigo": "ECP-018",
       "nota": 15,
       "promedio": 15
     },
     {
       "id": 19,
-      "nombres": "LUZ MERI DIAZ PINEDO",
+      "nombres": "DIAZ PINEDO, LUZ MERI",
       "codigo": "ECP-019",
       "nota": 17,
       "promedio": 17
     },
     {
       "id": 20,
-      "nombres": "ANA LIZBETH DIAZ SEGURA",
+      "nombres": "DIAZ SEGURA, ANA LIZBETH",
       "codigo": "ECP-020",
       "nota": 16,
       "promedio": 16
     },
     {
       "id": 21,
-      "nombres": "KATHERIN DÍAZ VELA",
+      "nombres": "DÍAZ VELA, KATHERIN",
       "codigo": "ECP-021",
       "nota": 15,
       "promedio": 15
     },
     {
       "id": 22,
-      "nombres": "ROSA EDITA FERNANDEZ MUÑOZ",
+      "nombres": "FERNANDEZ MUÑOZ, ROSA EDITA",
       "codigo": "ECP-022",
       "nota": 17,
       "promedio": 17
     },
     {
       "id": 23,
-      "nombres": "MARITA MARILE FERNÁNDEZ OCHOA",
+      "nombres": "FERNÁNDEZ OCHOA, MARITA MARILE",
       "codigo": "ECP-023",
       "nota": 16,
       "promedio": 16
     },
     {
       "id": 24,
-      "nombres": "LEIDY MEDALY FERNÁNDEZ PEDRAZA",
+      "nombres": "FERNÁNDEZ PEDRAZA, LEIDY MEDALY",
       "codigo": "ECP-024",
       "nota": 17,
       "promedio": 17
     },
     {
       "id": 25,
-      "nombres": "JOHN KEVIN FERNÁNDEZ PÉREZ",
+      "nombres": "FERNÁNDEZ PÉREZ, JOHN KEVIN",
       "codigo": "ECP-025",
       "nota": 18,
       "promedio": 18
     },
     {
       "id": 26,
-      "nombres": "NILVIA FERNANDEZ TELLO",
+      "nombres": "FERNANDEZ TELLO, NILVIA",
       "codigo": "ECP-026",
       "nota": 16,
       "promedio": 16
     },
     {
       "id": 27,
-      "nombres": "ADILSO FLORES CORONEL",
+      "nombres": "FLORES CORONEL, ADILSO",
       "codigo": "ECP-027",
       "nota": 18,
       "promedio": 18
     },
     {
       "id": 28,
-      "nombres": "KAREIMY YULEISI FLORES GUEVARA",
+      "nombres": "FLORES GUEVARA, KAREIMY YULEISI",
       "codigo": "ECP-028",
       "nota": 16,
       "promedio": 16
     },
     {
       "id": 29,
-      "nombres": "FLOR YAMILET FLORES QUISPE",
+      "nombres": "FLORES QUISPE, FLOR YAMILET",
       "codigo": "ECP-029",
       "nota": 18,
       "promedio": 18
     },
     {
       "id": 30,
-      "nombres": "DORIS GARCIA PARDO",
+      "nombres": "GARCIA PARDO, DORIS",
       "codigo": "ECP-030",
       "nota": 16,
       "promedio": 16
     },
     {
       "id": 31,
-      "nombres": "YONER GUERRERO CARRERO",
+      "nombres": "GUERRERO CARRERO, YONER",
       "codigo": "ECP-031",
       "nota": 16,
       "promedio": 16
     },
     {
       "id": 32,
-      "nombres": "NELY MARILÚ GUEVARA ALEJANDRÍA",
+      "nombres": "GUEVARA ALEJANDRÍA, NELY MARILÚ",
       "codigo": "ECP-032",
       "nota": 16,
       "promedio": 16
     },
     {
       "id": 33,
-      "nombres": "HEINER GUEVARA PÉREZ",
+      "nombres": "GUEVARA PÉREZ, HEINER",
       "codigo": "ECP-033",
       "nota": 15,
       "promedio": 15
     },
     {
       "id": 34,
-      "nombres": "MERLY GUEVARA RAMÍREZ",
+      "nombres": "GUEVARA RAMÍREZ, MERLY",
       "codigo": "ECP-034",
       "nota": 15,
       "promedio": 15
     },
     {
       "id": 35,
-      "nombres": "LUZ IRMA HERRERA SÁNCHEZ",
+      "nombres": "HERRERA SÁNCHEZ, LUZ IRMA",
       "codigo": "ECP-035",
       "nota": 15,
       "promedio": 15
     },
     {
       "id": 36,
-      "nombres": "JUAN GABRIEL HORNA MUÑOZ",
+      "nombres": "HORNA MUÑOZ, JUAN GABRIEL",
       "codigo": "ECP-036",
       "nota": 17,
       "promedio": 17
     },
     {
       "id": 37,
-      "nombres": "LESLY DIALENY HORNA MUÑOZ",
+      "nombres": "HORNA MUÑOZ, LESLY DIALENY",
       "codigo": "ECP-037",
       "nota": 18,
       "promedio": 18
     },
     {
       "id": 38,
-      "nombres": "EVELIN HURTADO COLUNCHE",
+      "nombres": "HURTADO COLUNCHE, EVELIN",
       "codigo": "ECP-038",
       "nota": 14,
       "promedio": 14
     },
     {
       "id": 39,
-      "nombres": "MARISELA JULCA RAMIREZ",
+      "nombres": "JULCA RAMIREZ, MARISELA",
       "codigo": "ECP-039",
       "nota": 18,
       "promedio": 18
     },
     {
       "id": 40,
-      "nombres": "ELVIA LLAMOCTANTA ESCOBAR",
+      "nombres": "LLAMOCTANTA ESCOBAR, ELVIA",
       "codigo": "ECP-040",
       "nota": 15,
       "promedio": 15
     },
     {
       "id": 41,
-      "nombres": "MARÍA CELI LOZADA DIAZ",
+      "nombres": "LOZADA DIAZ, MARÍA CELI",
       "codigo": "ECP-041",
       "nota": 15,
       "promedio": 15
     },
     {
       "id": 42,
-      "nombres": "CRISTIAN ALDAIR LOZANO REQUEJO",
+      "nombres": "LOZANO REQUEJO, CRISTIAN ALDAIR",
       "codigo": "ECP-042",
       "nota": 18,
       "promedio": 18
     },
     {
       "id": 43,
-      "nombres": "YORDIN LUMBA TARRILLO",
+      "nombres": "LUMBA TARRILLO, YORDIN",
       "codigo": "ECP-043",
       "nota": 17,
       "promedio": 17
     },
     {
       "id": 44,
-      "nombres": "ITAMAR MALUQUIS ALTAMIRANO",
+      "nombres": "MALUQUIS ALTAMIRANO, ITAMAR",
       "codigo": "ECP-044",
       "nota": 17,
       "promedio": 17
     },
     {
       "id": 45,
-      "nombres": "MARLENY DEL CARMEN MARRUFO GOICOCHEA",
+      "nombres": "MARRUFO GOICOCHEA, MARLENY DEL CARMEN",
       "codigo": "ECP-045",
       "nota": 17,
       "promedio": 17
     },
     {
       "id": 46,
-      "nombres": "LUZ NEYDI MEDINA ALVARADO",
+      "nombres": "MEDINA ALVARADO, LUZ NEYDI",
       "codigo": "ECP-046",
       "nota": 17,
       "promedio": 17
     },
     {
       "id": 47,
-      "nombres": "LEYLI YOCELIT MUNDACA QUISPE",
+      "nombres": "MUNDACA QUISPE, LEYLI YOCELIT",
       "codigo": "ECP-047",
       "nota": 16,
       "promedio": 16
     },
     {
       "id": 48,
-      "nombres": "KENNY DANY NARANJO DÍAZ",
+      "nombres": "NARANJO DÍAZ, KENNY DANY",
       "codigo": "ECP-048",
       "nota": 17,
       "promedio": 17
     },
     {
       "id": 49,
-      "nombres": "ADRIANO OLIVERA CASTRO",
+      "nombres": "OLIVERA CASTRO, ADRIANO",
       "codigo": "ECP-049",
       "nota": 18,
       "promedio": 18
     },
     {
       "id": 50,
-      "nombres": "DIANA LISET OLIVERA SALDAÑA",
+      "nombres": "OLIVERA SALDAÑA, DIANA LISET",
       "codigo": "ECP-050",
       "nota": 15,
       "promedio": 15
     },
     {
       "id": 51,
-      "nombres": "KEYNER PAJARES MENDOZA",
+      "nombres": "PAJARES MENDOZA, KEYNER",
       "codigo": "ECP-051",
       "nota": 17,
       "promedio": 17
     },
     {
       "id": 52,
-      "nombres": "CELENI PAREDES CIEZA",
+      "nombres": "PAREDES CIEZA, CELENI",
       "codigo": "ECP-052",
       "nota": 16,
       "promedio": 16
     },
     {
       "id": 53,
-      "nombres": "GISELA JHAMILET PAREDES DELGADO",
+      "nombres": "PAREDES DELGADO, GISELA JHAMILET",
       "codigo": "ECP-053",
       "nota": 16,
       "promedio": 16
     },
     {
       "id": 54,
-      "nombres": "LIDIA GREYSI PERALES SÁNCHEZ",
+      "nombres": "PERALES SÁNCHEZ, LIDIA GREYSI",
       "codigo": "ECP-054",
       "nota": 16,
       "promedio": 16
     },
     {
       "id": 55,
-      "nombres": "FRAILIN MAICOL PEREZ GOICOCHEA",
+      "nombres": "PEREZ GOICOCHEA, FRAILIN MAICOL",
       "codigo": "ECP-055",
       "nota": 17,
       "promedio": 17
     },
     {
       "id": 56,
-      "nombres": "MARIA ERLITA PINEDO TORRES",
+      "nombres": "PINEDO TORRES, MARIA ERLITA",
       "codigo": "ECP-056",
       "nota": 15,
       "promedio": 15
     },
     {
       "id": 57,
-      "nombres": "JULIO CESAR QUINTANA ESTELA",
+      "nombres": "QUINTANA ESTELA, JULIO CESAR",
       "codigo": "ECP-057",
       "nota": 17,
       "promedio": 17
     },
     {
       "id": 58,
-      "nombres": "CANDY RAMIREZ GONZALES",
+      "nombres": "RAMIREZ GONZALES, CANDY",
       "codigo": "ECP-058",
       "nota": 16,
       "promedio": 16
     },
     {
       "id": 59,
-      "nombres": "REINA ISABEL RAMIREZ GUEVARA",
+      "nombres": "RAMIREZ GUEVARA, REINA ISABEL",
       "codigo": "ECP-059",
       "nota": 17,
       "promedio": 17
     },
     {
       "id": 60,
-      "nombres": "PERCY ALDAIR RAMIREZ MOLINA",
+      "nombres": "RAMIREZ MOLINA, PERCY ALDAIR",
       "codigo": "ECP-060",
       "nota": 18,
       "promedio": 18
     },
     {
       "id": 61,
-      "nombres": "GABY LIZBETH RAMIREZ TUCUNANGO",
+      "nombres": "RAMIREZ TUCUNANGO, GABY LIZBETH",
       "codigo": "ECP-061",
       "nota": 17,
       "promedio": 17
     },
     {
       "id": 62,
-      "nombres": "FRANCIS JUNIOR ROJAS MONSALVE",
+      "nombres": "ROJAS MONSALVE, FRANCIS JUNIOR",
       "codigo": "ECP-062",
       "nota": 17,
       "promedio": 17
     },
     {
       "id": 63,
-      "nombres": "ALEXIS ALY SALAZAR CHUZÓN",
+      "nombres": "SALAZAR CHUZÓN, ALEXIS ALY",
       "codigo": "ECP-063",
       "nota": 16,
       "promedio": 16
     },
     {
       "id": 64,
-      "nombres": "LEYDTNIZ PAOLA SALAZAR RÍOS",
+      "nombres": "SALAZAR RÍOS, LEYDTNIZ PAOLA",
       "codigo": "ECP-064",
       "nota": 16,
       "promedio": 16
     },
     {
       "id": 65,
-      "nombres": "ROVINSON SILVA CHAVEZ",
+      "nombres": "SILVA CHAVEZ, ROVINSON",
       "codigo": "ECP-065",
       "nota": 17,
       "promedio": 17
     },
     {
       "id": 66,
-      "nombres": "JOSÉ ULISES TARRILLO TAPIA",
+      "nombres": "TARRILLO TAPIA, JOSÉ ULISES",
       "codigo": "ECP-066",
       "nota": 17,
       "promedio": 17
     },
     {
       "id": 67,
-      "nombres": "CATERIN TATIANA TONGO SALDAÑA",
+      "nombres": "TONGO SALDAÑA, CATERIN TATIANA",
       "codigo": "ECP-067",
       "nota": 16,
       "promedio": 16
     },
     {
       "id": 68,
-      "nombres": "ARACELI TORRES FERNÁNDEZ",
+      "nombres": "TORRES FERNÁNDEZ, ARACELI",
       "codigo": "ECP-068",
       "nota": 16,
       "promedio": 16
     },
     {
       "id": 69,
-      "nombres": "JOSE JULIAN TORRES SANCHEZ",
+      "nombres": "TORRES SANCHEZ, JOSE JULIAN",
       "codigo": "ECP-069",
       "nota": 17,
       "promedio": 17
     },
     {
       "id": 70,
-      "nombres": "EDWIN VASQUEZ VASQUEZ",
+      "nombres": "VASQUEZ VASQUEZ, EDWIN",
       "codigo": "ECP-070",
       "nota": 16,
       "promedio": 16
     },
     {
       "id": 71,
-      "nombres": "MARICIELO VEGA ALARCÓN",
+      "nombres": "VEGA ALARCÓN, MARICIELO",
       "codigo": "ECP-071",
       "nota": 17,
       "promedio": 17
     },
     {
       "id": 72,
-      "nombres": "ROSA EVITA VEGA BANDA",
+      "nombres": "VEGA BANDA, ROSA EVITA",
       "codigo": "ECP-072",
       "nota": 15,
       "promedio": 15
     },
     {
       "id": 73,
-      "nombres": "GISELA ANABEYLI VILCHEZ FLORES",
+      "nombres": "VILCHEZ FLORES, GISELA ANABEYLI",
       "codigo": "ECP-073",
       "nota": 17,
       "promedio": 17
     },
     {
       "id": 74,
-      "nombres": "LEILA YALIZET VÍLCHEZ PÉREZ",
+      "nombres": "VÍLCHEZ PÉREZ, LEILA YALIZET",
       "codigo": "ECP-074",
       "nota": 17,
       "promedio": 17

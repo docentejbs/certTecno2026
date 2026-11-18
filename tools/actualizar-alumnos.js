@@ -4,7 +4,7 @@
  * Uso:  node tools/actualizar-alumnos.js ["ruta/al/archivo.xlsx"]
  *
  * - Lee la primera hoja: columnas N°, "Apellidos, Nombres", Nota final.
- * - Convierte el nombre a "NOMBRES APELLIDOS" (como aparece en el certificado).
+ * - Mantiene el nombre en el orden del Excel: "APELLIDOS, NOMBRES".
  * - El código se toma de la columna "codigo" del Excel. Si no existe esa columna,
  *   conserva el código que el alumno ya tenía en el JSON (se compara por nombre)
  *   o le asigna un correlativo.
@@ -81,9 +81,9 @@ function leerHoja(file) {
 const limpiar = (s) => String(s || "").replace(/\s+/g, " ").trim();
 const clave = (s) => limpiar(s).normalize("NFD").replace(/[̀-ͯ]/g, "").toUpperCase();
 
+// Respeta el orden del Excel ("APELLIDOS, NOMBRES"); solo limpia espacios.
 function nombreCertificado(apellidosNombres) {
-  const [apellidos, nombres] = limpiar(apellidosNombres).split(/\s*,\s*/);
-  return limpiar(nombres ? `${nombres} ${apellidos}` : apellidos).toUpperCase();
+  return limpiar(apellidosNombres).replace(/\s*,\s*/, ", ").toUpperCase();
 }
 
 const data = JSON.parse(fs.readFileSync(JSON_PATH, "utf8"));
