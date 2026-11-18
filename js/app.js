@@ -89,15 +89,29 @@
     fill(frag, "fechaFin", curso.fechaFin);
     fill(frag, "modalidad", curso.modalidad);
     fill(frag, "fechaEmision", `${curso.lugarEmision} ${fechaLarga(curso.fechaEmision)}`);
+    fill(frag, "tipo", curso.tipo || "ESPECIALIZACIÓN");
+    fill(frag, "resolucion", curso.resolucion || "");
     fill(frag, "codigo", alumno.codigo);
-    fill(frag, "expediente", alumno.expediente);
+    fill(frag, "expediente", curso.expediente);
     fill(frag, "nota", alumno.nota);
     fill(frag, "promedio", alumno.promedio);
 
     // Firmas
     const firmas = frag.querySelector('[data-f="firmas"]');
     curso.firmantes.forEach((f) => {
-      const div = el("div");
+      const div = el("div", "firma");
+      if (f.sello) {
+        const sello = el("img", "firma-sello");
+        sello.src = f.sello;
+        sello.alt = "";
+        div.appendChild(sello);
+      }
+      if (f.firma) {
+        const firma = el("img", "firma-img");
+        firma.src = f.firma;
+        firma.alt = "Firma de " + f.nombre;
+        div.appendChild(firma);
+      }
       div.appendChild(el("div", "firma-nombre", f.nombre));
       div.appendChild(el("div", "firma-cargo", f.cargo));
       firmas.appendChild(div);
@@ -107,10 +121,7 @@
     const modulos = frag.querySelector('[data-f="modulos"]');
     curso.modulos.forEach((m) => {
       const col = el("div", "modulo");
-      const head = el("div", "modulo-titulo");
-      head.appendChild(el("span", null, "✓"));
-      head.appendChild(el("span", null, m.titulo));
-      col.appendChild(head);
+      col.appendChild(el("div", "modulo-titulo", m.titulo));
 
       const body = el("div", "modulo-cuerpo");
       const ul = el("ul");

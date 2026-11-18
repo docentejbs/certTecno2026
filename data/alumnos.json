@@ -1,26 +1,35 @@
 {
   "curso": {
-    "institucion": "INSTITUTO DE EDUCACION SUPERIOR TECNOLOGICO PUBLICO “CUTERVO”",
-    "nombre": "OFIMÁTICA PROFESIONAL",
-    "herramientas": "MICROSOFT WORD, MICROSOFT POWER POINT, MICROSOFT EXCEL, MACROS EN LOS NIVELES BÁSICO - INTERMEDIO - AVANZADO",
+    "institucion": "INSTITUTO DE EDUCACIÓN SUPERIOR TECNOLÓGICO PUBLICO “CUTERVO”",
+    "tipo": "EXTENSIÓN",
+    "nombre": "OFIMÁTICA BÁSICA - INTERMEDIA",
+    "herramientas": "de MICROSOFT WORD, MICROSOFT POWER POINT, MICROSOFT EXCEL, EN LOS NIVELES BÁSICO - INTERMEDIO",
     "horas": 200,
-    "fechaInicio": "28/09/2023",
-    "fechaFin": "29/01/2024",
+    "fechaInicio": "05/10/2026",
+    "fechaFin": "23/10/2026",
     "modalidad": "presencial y online",
     "lugarEmision": "CUTERVO",
     "fechaEmision": "2026-11-16",
+    "resolucion": "237 - 2026 - DG - IESTP “C”",
+    "expediente": "2439",
     "firmantes": [
       {
-        "nombre": "Msc. WILLY FREDERICK AVELLANEDA VÁSQUEZ.",
-        "cargo": "Coordinador de Área Académica de Computación e Informática y APSTI"
+        "nombre": "MSC. WILLY FREDERICK AVELLANEDA VÁSQUEZ.",
+        "cargo": "Coordinador de Área Académica de Computación e Informática y APSTI",
+        "sello": "assets/img/firmas/sello-coordinacion.png",
+        "firma": "assets/img/firmas/firma-coordinacion.png"
       },
       {
         "nombre": "LIC.PAHOLO DANIEL GONZALES MUÑOZ",
-        "cargo": "Jefe de Unidad de Formación Continua"
+        "cargo": "Jefe de Unidad de Formación Continua",
+        "sello": "assets/img/firmas/sello-formacion.png",
+        "firma": "assets/img/firmas/firma-formacion.png"
       },
       {
         "nombre": "Mg. JOSÉ SATURNINO ROBLES MACHUCA.",
-        "cargo": "Director General del I.E.S.T.P “Cutervo”"
+        "cargo": "Director General del I.E.S.T.P “Cutervo”",
+        "sello": "assets/img/firmas/sello-direccion.png",
+        "firma": "assets/img/firmas/firma-direccion.png"
       }
     ],
     "modulos": [
@@ -96,7 +105,6 @@
       "id": 1,
       "nombres": "LUDWING DANIEL ALTAMIRANO GIRON",
       "codigo": "ECP-001",
-      "expediente": "1086",
       "nota": 16,
       "promedio": 16
     },
@@ -104,7 +112,6 @@
       "id": 2,
       "nombres": "DEYLER ARTEAGA GARCIA",
       "codigo": "ECP-002",
-      "expediente": "1087",
       "nota": 17,
       "promedio": 17
     },
@@ -112,7 +119,6 @@
       "id": 3,
       "nombres": "RONALDINHO ARTEAGA LLANOS",
       "codigo": "ECP-003",
-      "expediente": "1088",
       "nota": 15,
       "promedio": 15
     },
@@ -120,7 +126,6 @@
       "id": 4,
       "nombres": "JUAN BARAHONA SÁNCHEZ",
       "codigo": "ECP-004",
-      "expediente": "1089",
       "nota": 18,
       "promedio": 18
     },
@@ -128,7 +133,6 @@
       "id": 5,
       "nombres": "NATALY BARON SILVA",
       "codigo": "ECP-005",
-      "expediente": "1090",
       "nota": 18,
       "promedio": 18
     },
@@ -136,7 +140,6 @@
       "id": 6,
       "nombres": "EYDIL DAYNER BECERRA TORRES",
       "codigo": "ECP-006",
-      "expediente": "1091",
       "nota": 16,
       "promedio": 16
     },
@@ -144,7 +147,6 @@
       "id": 7,
       "nombres": "JHON JAMIL CAMPOS GONZALES",
       "codigo": "ECP-007",
-      "expediente": "1092",
       "nota": 16,
       "promedio": 16
     },
@@ -152,7 +154,6 @@
       "id": 8,
       "nombres": "CHERLY MARITA CAMPOS PEDRAZA",
       "codigo": "ECP-008",
-      "expediente": "1093",
       "nota": 16,
       "promedio": 16
     },
@@ -160,7 +161,6 @@
       "id": 9,
       "nombres": "MÓNICA CARRANZA DÁVILA",
       "codigo": "ECP-009",
-      "expediente": "1094",
       "nota": 15,
       "promedio": 15
     },
@@ -168,7 +168,6 @@
       "id": 10,
       "nombres": "FANY JUDITH CARRANZA OLIVERA",
       "codigo": "ECP-010",
-      "expediente": "1095",
       "nota": 17,
       "promedio": 17
     },
@@ -176,7 +175,6 @@
       "id": 11,
       "nombres": "LUZ SARITA CASTREJÓN NAUCA",
       "codigo": "ECP-011",
-      "expediente": "1096",
       "nota": 16,
       "promedio": 16
     },
@@ -184,7 +182,6 @@
       "id": 12,
       "nombres": "CRISTIAN ROBERT CASTRO PÉREZ",
       "codigo": "ECP-012",
-      "expediente": "1097",
       "nota": 16,
       "promedio": 16
     },
@@ -192,7 +189,6 @@
       "id": 13,
       "nombres": "EDGARD JESÚS CORONADO LEÓN",
       "codigo": "ECP-013",
-      "expediente": "1098",
       "nota": 17,
       "promedio": 17
     },
@@ -200,7 +196,6 @@
       "id": 14,
       "nombres": "MAGALY CUBAS CORONADO",
       "codigo": "ECP-014",
-      "expediente": "1099",
       "nota": 16,
       "promedio": 16
     },
@@ -208,7 +203,6 @@
       "id": 15,
       "nombres": "MARIA NAIDA CUBAS INGA",
       "codigo": "ECP-015",
-      "expediente": "1100",
       "nota": 17,
       "promedio": 17
     },
@@ -216,7 +210,6 @@
       "id": 16,
       "nombres": "EDWEN DÍAZ BERRIOS",
       "codigo": "ECP-016",
-      "expediente": "1101",
       "nota": 18,
       "promedio": 18
     },
@@ -224,7 +217,6 @@
       "id": 17,
       "nombres": "ELISABETH DÍAZ BURGA",
       "codigo": "ECP-017",
-      "expediente": "1102",
       "nota": 15,
       "promedio": 15
     },
@@ -232,7 +224,6 @@
       "id": 18,
       "nombres": "MAYLI DÍAZ GONZALES",
       "codigo": "ECP-018",
-      "expediente": "1103",
       "nota": 15,
       "promedio": 15
     },
@@ -240,7 +231,6 @@
       "id": 19,
       "nombres": "LUZ MERI DIAZ PINEDO",
       "codigo": "ECP-019",
-      "expediente": "1104",
       "nota": 17,
       "promedio": 17
     },
@@ -248,7 +238,6 @@
       "id": 20,
       "nombres": "ANA LIZBETH DIAZ SEGURA",
       "codigo": "ECP-020",
-      "expediente": "1105",
       "nota": 16,
       "promedio": 16
     },
@@ -256,7 +245,6 @@
       "id": 21,
       "nombres": "KATHERIN DÍAZ VELA",
       "codigo": "ECP-021",
-      "expediente": "1106",
       "nota": 15,
       "promedio": 15
     },
@@ -264,7 +252,6 @@
       "id": 22,
       "nombres": "ROSA EDITA FERNANDEZ MUÑOZ",
       "codigo": "ECP-022",
-      "expediente": "1107",
       "nota": 17,
       "promedio": 17
     },
@@ -272,7 +259,6 @@
       "id": 23,
       "nombres": "MARITA MARILE FERNÁNDEZ OCHOA",
       "codigo": "ECP-023",
-      "expediente": "1108",
       "nota": 16,
       "promedio": 16
     },
@@ -280,7 +266,6 @@
       "id": 24,
       "nombres": "LEIDY MEDALY FERNÁNDEZ PEDRAZA",
       "codigo": "ECP-024",
-      "expediente": "1109",
       "nota": 17,
       "promedio": 17
     },
@@ -288,7 +273,6 @@
       "id": 25,
       "nombres": "JOHN KEVIN FERNÁNDEZ PÉREZ",
       "codigo": "ECP-025",
-      "expediente": "1110",
       "nota": 18,
       "promedio": 18
     },
@@ -296,7 +280,6 @@
       "id": 26,
       "nombres": "NILVIA FERNANDEZ TELLO",
       "codigo": "ECP-026",
-      "expediente": "1111",
       "nota": 16,
       "promedio": 16
     },
@@ -304,7 +287,6 @@
       "id": 27,
       "nombres": "ADILSO FLORES CORONEL",
       "codigo": "ECP-027",
-      "expediente": "1112",
       "nota": 18,
       "promedio": 18
     },
@@ -312,7 +294,6 @@
       "id": 28,
       "nombres": "KAREIMY YULEISI FLORES GUEVARA",
       "codigo": "ECP-028",
-      "expediente": "1113",
       "nota": 16,
       "promedio": 16
     },
@@ -320,7 +301,6 @@
       "id": 29,
       "nombres": "FLOR YAMILET FLORES QUISPE",
       "codigo": "ECP-029",
-      "expediente": "1114",
       "nota": 18,
       "promedio": 18
     },
@@ -328,7 +308,6 @@
       "id": 30,
       "nombres": "DORIS GARCIA PARDO",
       "codigo": "ECP-030",
-      "expediente": "1115",
       "nota": 16,
       "promedio": 16
     },
@@ -336,7 +315,6 @@
       "id": 31,
       "nombres": "YONER GUERRERO CARRERO",
       "codigo": "ECP-031",
-      "expediente": "1116",
       "nota": 16,
       "promedio": 16
     },
@@ -344,7 +322,6 @@
       "id": 32,
       "nombres": "NELY MARILÚ GUEVARA ALEJANDRÍA",
       "codigo": "ECP-032",
-      "expediente": "1117",
       "nota": 16,
       "promedio": 16
     },
@@ -352,7 +329,6 @@
       "id": 33,
       "nombres": "HEINER GUEVARA PÉREZ",
       "codigo": "ECP-033",
-      "expediente": "1118",
       "nota": 15,
       "promedio": 15
     },
@@ -360,7 +336,6 @@
       "id": 34,
       "nombres": "MERLY GUEVARA RAMÍREZ",
       "codigo": "ECP-034",
-      "expediente": "1119",
       "nota": 15,
       "promedio": 15
     },
@@ -368,7 +343,6 @@
       "id": 35,
       "nombres": "LUZ IRMA HERRERA SÁNCHEZ",
       "codigo": "ECP-035",
-      "expediente": "1120",
       "nota": 15,
       "promedio": 15
     },
@@ -376,7 +350,6 @@
       "id": 36,
       "nombres": "JUAN GABRIEL HORNA MUÑOZ",
       "codigo": "ECP-036",
-      "expediente": "1121",
       "nota": 17,
       "promedio": 17
     },
@@ -384,7 +357,6 @@
       "id": 37,
       "nombres": "LESLY DIALENY HORNA MUÑOZ",
       "codigo": "ECP-037",
-      "expediente": "1122",
       "nota": 18,
       "promedio": 18
     },
@@ -392,7 +364,6 @@
       "id": 38,
       "nombres": "EVELIN HURTADO COLUNCHE",
       "codigo": "ECP-038",
-      "expediente": "1123",
       "nota": 14,
       "promedio": 14
     },
@@ -400,7 +371,6 @@
       "id": 39,
       "nombres": "MARISELA JULCA RAMIREZ",
       "codigo": "ECP-039",
-      "expediente": "1124",
       "nota": 18,
       "promedio": 18
     },
@@ -408,7 +378,6 @@
       "id": 40,
       "nombres": "ELVIA LLAMOCTANTA ESCOBAR",
       "codigo": "ECP-040",
-      "expediente": "1125",
       "nota": 15,
       "promedio": 15
     },
@@ -416,7 +385,6 @@
       "id": 41,
       "nombres": "MARÍA CELI LOZADA DIAZ",
       "codigo": "ECP-041",
-      "expediente": "1126",
       "nota": 15,
       "promedio": 15
     },
@@ -424,7 +392,6 @@
       "id": 42,
       "nombres": "CRISTIAN ALDAIR LOZANO REQUEJO",
       "codigo": "ECP-042",
-      "expediente": "1127",
       "nota": 18,
       "promedio": 18
     },
@@ -432,7 +399,6 @@
       "id": 43,
       "nombres": "YORDIN LUMBA TARRILLO",
       "codigo": "ECP-043",
-      "expediente": "1128",
       "nota": 17,
       "promedio": 17
     },
@@ -440,7 +406,6 @@
       "id": 44,
       "nombres": "ITAMAR MALUQUIS ALTAMIRANO",
       "codigo": "ECP-044",
-      "expediente": "1129",
       "nota": 17,
       "promedio": 17
     },
@@ -448,7 +413,6 @@
       "id": 45,
       "nombres": "MARLENY DEL CARMEN MARRUFO GOICOCHEA",
       "codigo": "ECP-045",
-      "expediente": "1130",
       "nota": 17,
       "promedio": 17
     },
@@ -456,7 +420,6 @@
       "id": 46,
       "nombres": "LUZ NEYDI MEDINA ALVARADO",
       "codigo": "ECP-046",
-      "expediente": "1131",
       "nota": 17,
       "promedio": 17
     },
@@ -464,7 +427,6 @@
       "id": 47,
       "nombres": "LEYLI YOCELIT MUNDACA QUISPE",
       "codigo": "ECP-047",
-      "expediente": "1132",
       "nota": 16,
       "promedio": 16
     },
@@ -472,7 +434,6 @@
       "id": 48,
       "nombres": "KENNY DANY NARANJO DÍAZ",
       "codigo": "ECP-048",
-      "expediente": "1133",
       "nota": 17,
       "promedio": 17
     },
@@ -480,7 +441,6 @@
       "id": 49,
       "nombres": "ADRIANO OLIVERA CASTRO",
       "codigo": "ECP-049",
-      "expediente": "1134",
       "nota": 18,
       "promedio": 18
     },
@@ -488,7 +448,6 @@
       "id": 50,
       "nombres": "DIANA LISET OLIVERA SALDAÑA",
       "codigo": "ECP-050",
-      "expediente": "1135",
       "nota": 15,
       "promedio": 15
     },
@@ -496,7 +455,6 @@
       "id": 51,
       "nombres": "KEYNER PAJARES MENDOZA",
       "codigo": "ECP-051",
-      "expediente": "1136",
       "nota": 17,
       "promedio": 17
     },
@@ -504,7 +462,6 @@
       "id": 52,
       "nombres": "CELENI PAREDES CIEZA",
       "codigo": "ECP-052",
-      "expediente": "1137",
       "nota": 16,
       "promedio": 16
     },
@@ -512,7 +469,6 @@
       "id": 53,
       "nombres": "GISELA JHAMILET PAREDES DELGADO",
       "codigo": "ECP-053",
-      "expediente": "1138",
       "nota": 16,
       "promedio": 16
     },
@@ -520,7 +476,6 @@
       "id": 54,
       "nombres": "LIDIA GREYSI PERALES SÁNCHEZ",
       "codigo": "ECP-054",
-      "expediente": "1139",
       "nota": 16,
       "promedio": 16
     },
@@ -528,7 +483,6 @@
       "id": 55,
       "nombres": "FRAILIN MAICOL PEREZ GOICOCHEA",
       "codigo": "ECP-055",
-      "expediente": "1140",
       "nota": 17,
       "promedio": 17
     },
@@ -536,7 +490,6 @@
       "id": 56,
       "nombres": "MARIA ERLITA PINEDO TORRES",
       "codigo": "ECP-056",
-      "expediente": "1141",
       "nota": 15,
       "promedio": 15
     },
@@ -544,7 +497,6 @@
       "id": 57,
       "nombres": "JULIO CESAR QUINTANA ESTELA",
       "codigo": "ECP-057",
-      "expediente": "1142",
       "nota": 17,
       "promedio": 17
     },
@@ -552,7 +504,6 @@
       "id": 58,
       "nombres": "CANDY RAMIREZ GONZALES",
       "codigo": "ECP-058",
-      "expediente": "1143",
       "nota": 16,
       "promedio": 16
     },
@@ -560,7 +511,6 @@
       "id": 59,
       "nombres": "REINA ISABEL RAMIREZ GUEVARA",
       "codigo": "ECP-059",
-      "expediente": "1144",
       "nota": 17,
       "promedio": 17
     },
@@ -568,7 +518,6 @@
       "id": 60,
       "nombres": "PERCY ALDAIR RAMIREZ MOLINA",
       "codigo": "ECP-060",
-      "expediente": "1145",
       "nota": 18,
       "promedio": 18
     },
@@ -576,7 +525,6 @@
       "id": 61,
       "nombres": "GABY LIZBETH RAMIREZ TUCUNANGO",
       "codigo": "ECP-061",
-      "expediente": "1146",
       "nota": 17,
       "promedio": 17
     },
@@ -584,7 +532,6 @@
       "id": 62,
       "nombres": "FRANCIS JUNIOR ROJAS MONSALVE",
       "codigo": "ECP-062",
-      "expediente": "1147",
       "nota": 17,
       "promedio": 17
     },
@@ -592,7 +539,6 @@
       "id": 63,
       "nombres": "ALEXIS ALY SALAZAR CHUZÓN",
       "codigo": "ECP-063",
-      "expediente": "1148",
       "nota": 16,
       "promedio": 16
     },
@@ -600,7 +546,6 @@
       "id": 64,
       "nombres": "LEYDTNIZ PAOLA SALAZAR RÍOS",
       "codigo": "ECP-064",
-      "expediente": "1149",
       "nota": 16,
       "promedio": 16
     },
@@ -608,7 +553,6 @@
       "id": 65,
       "nombres": "ROVINSON SILVA CHAVEZ",
       "codigo": "ECP-065",
-      "expediente": "1150",
       "nota": 17,
       "promedio": 17
     },
@@ -616,7 +560,6 @@
       "id": 66,
       "nombres": "JOSÉ ULISES TARRILLO TAPIA",
       "codigo": "ECP-066",
-      "expediente": "1151",
       "nota": 17,
       "promedio": 17
     },
@@ -624,7 +567,6 @@
       "id": 67,
       "nombres": "CATERIN TATIANA TONGO SALDAÑA",
       "codigo": "ECP-067",
-      "expediente": "1152",
       "nota": 16,
       "promedio": 16
     },
@@ -632,7 +574,6 @@
       "id": 68,
       "nombres": "ARACELI TORRES FERNÁNDEZ",
       "codigo": "ECP-068",
-      "expediente": "1153",
       "nota": 16,
       "promedio": 16
     },
@@ -640,7 +581,6 @@
       "id": 69,
       "nombres": "JOSE JULIAN TORRES SANCHEZ",
       "codigo": "ECP-069",
-      "expediente": "1154",
       "nota": 17,
       "promedio": 17
     },
@@ -648,7 +588,6 @@
       "id": 70,
       "nombres": "EDWIN VASQUEZ VASQUEZ",
       "codigo": "ECP-070",
-      "expediente": "1155",
       "nota": 16,
       "promedio": 16
     },
@@ -656,7 +595,6 @@
       "id": 71,
       "nombres": "MARICIELO VEGA ALARCÓN",
       "codigo": "ECP-071",
-      "expediente": "1156",
       "nota": 17,
       "promedio": 17
     },
@@ -664,7 +602,6 @@
       "id": 72,
       "nombres": "ROSA EVITA VEGA BANDA",
       "codigo": "ECP-072",
-      "expediente": "1157",
       "nota": 15,
       "promedio": 15
     },
@@ -672,7 +609,6 @@
       "id": 73,
       "nombres": "GISELA ANABEYLI VILCHEZ FLORES",
       "codigo": "ECP-073",
-      "expediente": "1158",
       "nota": 17,
       "promedio": 17
     },
@@ -680,7 +616,6 @@
       "id": 74,
       "nombres": "LEILA YALIZET VÍLCHEZ PÉREZ",
       "codigo": "ECP-074",
-      "expediente": "1159",
       "nota": 17,
       "promedio": 17
     }

@@ -165,7 +165,7 @@ body {
 .texto p { margin: 0 0 20px; text-align: justify; }
 .fecha {
   position: absolute;
-  top: 546px; left: 0; right: 0;
+  top: 534px; left: 0; right: 0;
   margin: 0;
   padding-left: 30px;
   text-align: center;
@@ -182,7 +182,26 @@ body {
   font-size: 10.5px;
   line-height: 1.3;
 }
+.firma { position: relative; }
+.firma-sello {
+  position: absolute;
+  left: -4px;
+  top: -80px;
+  width: 84px;
+  opacity: .92;
+  transform: rotate(-6deg);
+  pointer-events: none;
+}
+.firma-img {
+  position: absolute;
+  left: 50%;
+  bottom: calc(100% - 10px);
+  width: 128px;
+  transform: translateX(-30%);
+  pointer-events: none;
+}
 .firma-nombre {
+  position: relative;
   border-top: 1px solid #333;
   padding-top: 2px;
   font-weight: bold;
@@ -191,10 +210,10 @@ body {
 .firma-cargo { color: var(--gold-text); font-weight: bold; }
 .codigo {
   position: absolute;
-  bottom: 22px; right: 39px;
+  bottom: 12px; right: 18px;
   margin: 0;
   color: #fff;
-  font-size: 14.5px;
+  font-size: 13.5px;
   font-weight: bold;
 }
 
@@ -212,9 +231,7 @@ body {
   justify-content: space-between;
 }
 .modulo-titulo {
-  display: flex;
-  gap: 32px;
-  padding: 4px 8px;
+  padding: 4px 24px;
   background: #000;
   color: #fff;
   font-weight: bold;
@@ -230,48 +247,60 @@ body {
   line-height: 1.24;
 }
 .modulo-cuerpo ul { list-style: none; margin: 0; padding: 0; }
-.modulo-cuerpo li { display: flex; }
+.modulo-cuerpo li { position: relative; padding-left: 49px; }
 .modulo-cuerpo li::before {
   content: "o";
-  width: 45px;
-  flex: 0 0 45px;
+  position: absolute;
+  left: 31px;
   font-size: 13px;
 }
-.modulo-cuerpo li.head::before { content: "✓"; }
+.modulo-cuerpo li.head::before { content: "✓"; left: 18px; font-size: 15px; }
 
 .back-bottom {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  margin-top: 40px;
+  margin-top: 33px;
 }
 .notas {
-  width: 500px;
+  width: 408px;
   border-collapse: collapse;
+  outline: 1px solid #555;
   font-size: 13.5px;
 }
 .notas th {
-  background: #262626;
+  background: #000;
   color: #fff;
   font-weight: normal;
   font-size: 18px;
-  height: 52px;
-  border: 1px solid #262626;
+  height: 70px;
+  box-shadow: inset 0 0 0 7px #fff;
 }
+.notas th + th { border-left: 1px solid #555; }
 .notas td {
-  background: #e6e6e6;
+  background: #fff;
   border: 1px solid #555;
-  height: 52px;
-  padding: 0 20px;
+  height: 71px;
+  padding: 0 30px;
   width: 50%;
+  font-weight: bold;
 }
-.notas td + td { text-align: center; font-size: 18px; font-weight: bold; }
+.notas td + td {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16.5px;
+  font-weight: normal;
+}
+
+.sello {
+  width: 176px;
+  margin-top: 8px;
+}
 
 .certifica {
-  position: relative;
-  width: 410px;
+  width: 435px;
   border: 1px solid #555;
-  padding: 0 2px 8px;
+  padding: 0 16px 8px;
   font-size: 17.5px;
   line-height: 1.38;
 }
@@ -283,12 +312,6 @@ body {
 }
 .certifica p { margin: 0; text-align: justify; }
 .expediente { margin-top: 6px !important; }
-.sello {
-  position: absolute;
-  right: 120px; bottom: 2px;
-  width: 72px;
- 
-}
 
 /* ===== Impresión ===== */
 @page { size: A4 landscape; margin: 0; }

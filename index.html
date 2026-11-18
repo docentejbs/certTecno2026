@@ -45,9 +45,9 @@
           <path d="M0 0 H245 Q90 22 0 100 Z" fill="url(#gGold)"/>
           <path d="M0 0 H215 Q75 22 0 85 Z" fill="url(#gRedCorner)"/>
           <!-- ola inferior -->
-          <path d="M0 610 C130 700 330 765 610 762 C820 760 990 725 1123 695 V794 H0 Z" fill="url(#gGold)"/>
-          <path d="M0 628 C130 715 330 778 610 775 C820 773 990 740 1123 712 V794 H0 Z" fill="#000"/>
-          <path d="M0 665 C140 745 340 790 610 788 C820 786 990 755 1123 728 V794 H0 Z" fill="url(#gRed)"/>
+          <path d="M0 610 C130 700 330 754 610 748 C820 746 990 725 1123 695 V794 H0 Z" fill="url(#gGold)"/>
+          <path d="M0 628 C130 715 330 767 610 760 C820 758 990 740 1123 712 V794 H0 Z" fill="#000"/>
+          <path d="M0 665 C140 745 340 779 610 771 C820 769 990 755 1123 728 V794 H0 Z" fill="url(#gRed)"/>
         </svg>
 
         <div class="front-content">
@@ -59,13 +59,13 @@
           <p class="otorgado">otorgado a:</p>
           <p class="alumno" data-f="nombres"></p>
           <div class="texto">
-            <p>Por haber APROBADO Y CONCLUIDO satisfactoriamente el CURSO DE ESPECIALIZACIÓN EN <strong data-f="curso"></strong>.</p>
+            <p>Por haber APROBADO Y CONCLUIDO satisfactoriamente el CURSO DE <span data-f="tipo"></span> EN <strong data-f="curso"></strong>.</p>
             <p>Habiéndose desarrollado todas las herramientas <span data-f="herramientas"></span>, con duración de <span data-f="horas"></span> HORAS LECTIVAS realizados el <span data-f="fechaInicio"></span> al <span data-f="fechaFin"></span> en la modalidad <span data-f="modalidad"></span>.</p>
             <p>Por lo tanto, se expide el siguiente certificado para que se le reconozca como tal.</p>
           </div>
           <p class="fecha" data-f="fechaEmision"></p>
           <div class="firmas" data-f="firmas"></div>
-          <p class="codigo">CÓDIGO N° <span data-f="codigo"></span></p>
+          <p class="codigo">N° DE RESOLUCIÓN DIRECTORAL APROBADO: <span data-f="resolucion"></span></p>
         </div>
       </section>
     </div>
@@ -88,17 +88,17 @@
                 <tr><th>CURSO</th><th>NOTA</th></tr>
               </thead>
               <tbody>
-                <tr><td data-f="curso"></td><td data-f="nota"></td></tr>
                 <tr><td>PROMEDIO FINAL</td><td data-f="promedio"></td></tr>
-                <tr><td>TOTAL, DE HORAS PEDAGÓGICAS</td><td data-f="horas"></td></tr>
+                <tr><td>TOTAL, DE HORAS PEDAGÓGICAS</td><td><span data-f="horas"></span> HORAS</td></tr>
               </tbody>
             </table>
+
+            <img class="sello" src="assets/img/sello.png" alt="Sello Computación e Informática">
 
             <div class="certifica">
               <h3>PROGRAMA DE ESTUDIOS DE<br>“COMPUTACIÓN E INFORMÁTICA y APSTI”<br>CERTIFICA</h3>
               <p>Que los datos consignados en el presente documento están inscritos en nuestros registros y libros de nuestra Institución.</p>
-              <p class="expediente"><strong>N° Expediente:</strong> <em data-f="expediente"></em>.</p>
-              <img class="sello" src="assets/img/sello.png" alt="Sello Computación e Informática">
+              <p class="expediente"><strong>N° Expediente: <span data-f="expediente"></span>.</strong></p>
             </div>
           </div>
         </div>
